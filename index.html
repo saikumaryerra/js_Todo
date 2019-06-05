@@ -15,12 +15,13 @@
 
         </div>
         <!-- bottom bar -->
-        <div class="bottom-bar">
-            <p id="items-count"></p>
-            <button>All</button>
-            <button>Active</button>
-            <button>Completed</button>
-            <p>Clear content</p>
+        <div id="bottom-bar">
+            <p id="items-count">0 items left</p>
+            <button onclick="displayAll()">All</button>
+            <button onclick="displayActive()">Active</button>
+            <button onclick="displayCompleted()">Completed</button>
+            <p onclick="clearCompleted()">Clear completed</p>
+            <p onclick="clearItems()">Clear all</p>
         </div>
     </section>
     <script type="text/javascript" src="todo.js"></script>
