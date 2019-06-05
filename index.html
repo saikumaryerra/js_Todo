@@ -1,21 +1,29 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-	<title>main page</title>
+    <title>main page</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
+
 <body>
-	<section>
-		<!-- for input -->
-			<input type="text" id="checklist">
-		<!-- todo list -->
-		<div class="todo-list" id="sai">
-			
-		</div>
-		<!-- bottom bar -->
-		<div>
-			
-		</div>
-	</section>
-<script type="text/javascript" src="todo.js"></script>
+    <section>
+        <!-- for input -->
+        <input type="text" id="checklist">
+        <!-- todo list -->
+        <div id="todo-list">
+
+        </div>
+        <!-- bottom bar -->
+        <div class="bottom-bar">
+            <p id="items-count"></p>
+            <button>All</button>
+            <button>Active</button>
+            <button>Completed</button>
+            <p>Clear content</p>
+        </div>
+    </section>
+    <script type="text/javascript" src="todo.js"></script>
 </body>
+
 </html>

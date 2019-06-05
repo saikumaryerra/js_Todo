@@ -1,0 +1,10 @@
+.bottom-bar {
+    display: flex;
+}
+
+.bottom-bar p {
+    margin: 0;
+}
+.strike{
+	text-decoration: line-through;
+}
